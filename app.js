@@ -20,7 +20,7 @@ app.get('/', function(req, res){
 });
 
 app.post('/upload', function(req, res){
-
+	console.log("se recibio una solicitud");
   // create an incoming form object
   var form = new formidable.IncomingForm();
 
